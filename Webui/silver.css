@@ -1,0 +1,216 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="date"]{
+    background-color: #0080ff;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    height: auto;
+    font-size: x-large;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.message {
+    color: #4caf50;
+    margin-top: 16px;
+}
+
+
+.calendar{
+    margin-bottom:35px;
+}
+.class-link{
+    color:#333333;
+    text-decoration:none;
+}
+
+.class-link:hover{
+    color:#ffbb00;
+}
+
+/* From here you can start to copy */
+
+.calendar {
+    padding:8px;
+    background: #ffffff;
+    border-radius: 4px;
+    font-size:18px;
+    border: 1px solid #333333;
+    box-shadow: 0px 20px 40px rgba(59,60,56,0.05);
+}
+.ui-datepicker {
+    background: #ffffff;
+    border-radius: 15px;
+}
+.ui-datepicker-header {
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    background: #31639c;
+    margin-bottom: 10px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    width: 20px;
+    height: 20px;
+    text-indent: 9999px;
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.ui-datepicker-prev {
+    float: left;
+    margin-left: 12px;
+}
+.ui-datepicker-prev:after {
+    transform: rotate(45deg);
+    margin: -43px 0px 0px 8px;
+}
+.ui-datepicker-next {
+    float: right;
+    margin-right: 12px;
+}
+.ui-datepicker-next:after {
+    transform: rotate(-135deg);
+    margin: -43px 0px 0px 6px;
+}
+.ui-datepicker-prev:after,
+.ui-datepicker-next:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover,
+.ui-datepicker-prev:hover:after,
+.ui-datepicker-next:hover:after {
+    border-color: #333333;
+}
+.ui-datepicker-title {
+    text-align: center;
+    font-size:25px;
+}
+.ui-datepicker-calendar {
+    width: 100%;
+    text-align: center;
+}
+.ui-datepicker-calendar thead tr th span {
+    display: block;
+    width: 40px;
+    color: #31639c;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.ui-state-default {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    line-height: 40px;
+    font-size: 16px;
+}
+.ui-state-default:hover {
+    color: #ffffff;
+    background:#31639c;
+    border-radius:50px;
+    transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-state-highlight {
+    color: #ffffff;
+    background-color:#31639c;
+    border-radius:50px;
+}
+.ui-state-active {
+    color: #ffffff;
+    background-color:#31639c;
+    border-radius:50px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+    color: #eee;
+    border: 2px solid transparent;
+}
+
+.icon {
+    margin-left: -30px;
+    margin-top: -26px;
+    position: relative;
+    color: #31639c;
+    font-size:20px;
+}
+
+.div{
+    padding: 10px 100px 30px 0px;
+}
+
+.text-danger-glow {
+    color: #ff4141;
+    text-shadow: 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00, 0 0 80px #f00;
+}
+
+.text-success-glow {
+    color: #54ff41;
+    text-shadow: 0 0 20px #22ff00, 0 0 30px #22ff00, 0 0 40px #22ff00, 0 0 50px #22ff00, 0 0 60px #f00, 0 0 70px #22ff00, 0 0 80px #22ff00;
+}
+
+.blink {
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+@keyframes blinker {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
