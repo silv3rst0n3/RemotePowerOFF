@@ -43,7 +43,11 @@ cp * ~/var/www/html
 cd ~/RemotePowerOFF/
 cp x.sh log.txt file2.txt ~/var/www/html
 ```
-5-copy Shutdown.py script to your Desktop windows
+5- add permsion to files
+```
+chown www-data file2.txt
+```
+6-copy Shutdown.py script to your Desktop windows
 
 6-add a.bat on your startup path
 
