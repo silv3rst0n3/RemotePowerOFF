@@ -15,11 +15,12 @@ The REMOTE POWER OFF is a PYTHON,Webui script designed to Help you for REmote Po
 
 ## Installation
 
-1- install apache web server:
+1- install apache web server cron php:
 
 ```
 sudo apt install apache2
-
+sudo apt install cron
+sudo apt install php
 ```
 
 2- Clone the repository:
