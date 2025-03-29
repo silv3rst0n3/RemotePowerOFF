@@ -4,7 +4,7 @@ import os
 import time
 
 # URL of the file on the server
-file_url = "http://3.74.74.110//file2.txt"
+file_url = "http://Your server ip or domain//file2.txt"
 
 # Function to read the date and time from the file
 def read_datetime_from_file(url):
