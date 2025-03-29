@@ -49,7 +49,7 @@ chown www-data file2.txt
 ```
 6-copy Shutdown.py script to your Desktop windows
 
-6-add a.bat on your startup path
+7-add a.bat on your startup path
 
 ## How to Use
 ```
