@@ -26,9 +26,8 @@ sudo apt install php
 2- Clone the repository:
 
 ```bash
-    git clone https://github.com/silv3rst0n3/RemotePowerOFF.git
-
-    cd RemotePowerOFF
+git clone https://github.com/silv3rst0n3/RemotePowerOFF.git
+cd RemotePowerOFF
     
 ```
 
@@ -44,8 +43,13 @@ cp * ~/var/www/html
 cd ~/RemotePowerOFF/
 cp x.sh log.txt file2.txt ~/var/www/html
 ```
-5-copy Shutdown script to your Desktop windows
+5-copy Shutdown.py script to your Desktop windows
 
 6-add a.bat on your startup path
 
-
+## How to Use
+```
+open your server ip
+http://serverip/index.php
+set date and time to Power off your system
+```
